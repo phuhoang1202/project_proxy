@@ -2,10 +2,6 @@ import { FlagIcon } from "react-flag-kit";
 import { FaCloud, FaUser, FaGlobe, FaBook, FaShieldAlt } from 'react-icons/fa';
 
 
-
-
-
-
 export const menu = [
     {
         id: 1,

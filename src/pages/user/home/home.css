@@ -2,10 +2,10 @@
     
 }
 
-@media (max-width: 404px) {
-  /* Kiểu tùy chỉnh cho màn hình nhỏ hơn 480px */
+@media (max-width: 380px) {
   .l-home-header-menu-flex-1 {
     flex: 1;
+    justify-content: flex-end;
   }
 }
 

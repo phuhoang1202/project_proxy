@@ -74,8 +74,8 @@ const Header = () => {
                     </div>
 
                     {/* Mobile Menu Icon */}
-                    <div className="flex md:hidden space-x-4 md:order-2 justify-between md:w-auto">
-                        <button className="bg-purple-600 text-white hover:bg-purple-700 py-2 px-4 rounded-md">
+                    <div className="flex md:hidden space-x-4 md:order-2 justify-between md:w-auto l-home-header-menu-flex-1">
+                        <button className="bg-purple-600 text-white hover:bg-purple-700 py-2 px-4 rounded-md w-max">
                             ĐĂNG NHẬP
                         </button>
                         <button className="text-purple-600" onClick={() => { 
