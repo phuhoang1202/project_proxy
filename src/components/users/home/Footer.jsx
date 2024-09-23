@@ -1,5 +1,4 @@
 import { FaFacebook, FaYoutube } from 'react-icons/fa';
-import { constants } from '../../../constants';
 
 const Footer = () => {
     return (
