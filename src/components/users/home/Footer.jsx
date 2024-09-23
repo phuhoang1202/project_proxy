@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Company Information */}
                 <div>
-                    <a href={constants.URL_WEB_ADMIN}>
+                    <a href="#">
                         <img style={{height: 64}} src="./images/logo-full.jpg" alt="VPSTTT Logo" className="mb-4" />
                     </a>
                     <p className="font-bold text-[#7743c9]">Công ty TNHH Công Nghệ VPSTTT</p>

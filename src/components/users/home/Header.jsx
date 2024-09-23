@@ -69,7 +69,7 @@ const Header = () => {
                 <div className="container mx-auto max-w-screen-xl flex flex-wrap justify-between items-center py-4 gap-2">
                     {/* Left Side: Logo */}
                     <div className="flex items-center space-x-4 md:order-1 overflow-hidden w-[160px] cursor-pointer">
-                        <a href={constants.URL_WEB_ADMIN}>
+                        <a href="#">
                             <img
                                 src="./images/logo-full.jpg"
                                 alt="VPSTTT Logo"
