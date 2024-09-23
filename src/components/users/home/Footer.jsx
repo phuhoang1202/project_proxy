@@ -35,13 +35,13 @@ const Footer = () => {
 
                     <div className="flex space-x-4 mt-4">
                         <a
-                            href="https://www.facebook.com"
+                            href="#"
                             className="bg-blue-600 w-8 h-8 flex items-center justify-center rounded-full overflow-hidden transform transition-transform duration-300 hover:-translate-y-2"
                         >
                             <FaFacebook className='w-4 h-4 text-white' />
                         </a>
                         <a
-                            href="https://www.youtube.com"
+                            href="#"
                             className="bg-[#c23030] w-8 h-8 flex items-center justify-center rounded-full overflow-hidden transform transition-transform duration-300 hover:-translate-y-2"
                         >
                             <FaYoutube className='w-4 h-4 text-white' />
