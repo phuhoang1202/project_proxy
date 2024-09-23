@@ -56,7 +56,7 @@ const Slider = () => {
     return (
         <div className="slider-container" >
             <RSlider {...settings}>
-                {['./images/home/proxy.jpg', './images/logo-full.png', './images/home/proxy.jpg'].map((src, index) => (
+                {['./images/home/proxy.jpg', './images/logo-full.jpg', './images/home/proxy.jpg'].map((src, index) => (
                     <div
                         key={index}
                         className="w-full h-auto md:h-96"

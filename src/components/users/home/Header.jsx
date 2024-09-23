@@ -67,8 +67,9 @@ const Header = () => {
                     {/* Left Side: Logo */}
                     <div className="flex items-center space-x-4 md:order-1 overflow-hidden w-[160px]">
                         <img
-                            src="./images/logo-full.png"
+                            src="./images/logo-full.jpg"
                             alt="VPSTTT Logo"
+                            style={{height: 64}}
                         // className="w-[200px] h-10"
                         />
                     </div>

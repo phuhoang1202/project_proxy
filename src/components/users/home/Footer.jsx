@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Company Information */}
                 <div>
-                    <img src="./images/logo-full.png" alt="VPSTTT Logo" className="mb-4" />
+                    <img style={{height: 64}} src="./images/logo-full.jpg" alt="VPSTTT Logo" className="mb-4" />
                     <p className="font-bold text-[#7743c9]">Công ty TNHH Công Nghệ VPSTTT</p>
                     <p><span className="font-bold">GPKD:</span> 4401093337</p>
                     <p><span className="font-bold">Cấp ngày:</span> 27/10/2021</p>
