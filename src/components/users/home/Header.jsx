@@ -2,6 +2,7 @@ import { FaFacebook, FaYoutube, FaCaretDown } from 'react-icons/fa';
 import { HiOutlineMenu } from "react-icons/hi";
 import { menu } from './menu';
 import { useEffect, useState } from 'react';
+import { constants } from '../../../constants';
 
 const Header = () => {
 
@@ -29,6 +30,8 @@ const Header = () => {
             setOpenMenu(id);  // Nếu nhấn vào mục khác thì mở mục đó
         }
     };
+
+    console.log("thong tin",constants.URL_WEB_ADMIN)
 
     return (
         <>
@@ -65,13 +68,14 @@ const Header = () => {
             <header className="bg-white dark:bg-purple-900 shadow-sm">
                 <div className="container mx-auto max-w-screen-xl flex flex-wrap justify-between items-center py-4 gap-2">
                     {/* Left Side: Logo */}
-                    <div className="flex items-center space-x-4 md:order-1 overflow-hidden w-[160px]">
-                        <img
-                            src="./images/logo-full.jpg"
-                            alt="VPSTTT Logo"
-                            style={{height: 64}}
-                        // className="w-[200px] h-10"
-                        />
+                    <div className="flex items-center space-x-4 md:order-1 overflow-hidden w-[160px] cursor-pointer">
+                        <a href={constants.URL_WEB_ADMIN}>
+                            <img
+                                src="./images/logo-full.jpg"
+                                alt="VPSTTT Logo"
+                                style={{ height: 64 }}                        
+                            />
+                        </a>
                     </div>
 
                     {/* Mobile Menu Icon */}
@@ -79,7 +83,7 @@ const Header = () => {
                         <button className="bg-purple-600 text-white hover:bg-purple-700 py-2 px-4 rounded-md w-max">
                             ĐĂNG NHẬP
                         </button>
-                        <button className="text-purple-600" onClick={() => { 
+                        <button className="text-purple-600" onClick={() => {
                             setIsMenuOpen(true);
                             setOpenMenu(null)
                         }}>
@@ -114,7 +118,7 @@ const Header = () => {
                                                     {submenuItem.options.map((option, idx) => (
                                                         <a
                                                             key={idx}
-                                                            href="#"
+                                                            href={constants.URL_WEB_ADMIN}
                                                             className="px-4 py-2 text-sm text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-purple-700 flex items-center gap-2"
                                                         >
                                                             {option.icon && <i className="">{option.icon}</i>}
@@ -168,7 +172,7 @@ const Header = () => {
                                                             {submenuItem.options.map((option, idx) => (
                                                                 <a
                                                                     key={idx}
-                                                                    href="#"
+                                                                    href={constants.URL_WEB_ADMIN}
                                                                     className="px-4 py-2 text-sm text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-purple-700 flex items-center gap-2"
                                                                 >
                                                                     {option.icon && <i className="">{option.icon}</i>}

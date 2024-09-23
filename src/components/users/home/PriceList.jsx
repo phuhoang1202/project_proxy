@@ -1,4 +1,5 @@
 import { FaCheck } from "react-icons/fa";
+import { constants } from "../../../constants";
 
 const packages = [
     {
@@ -87,7 +88,7 @@ const PriceList = () => {
                         <div className="text-2xl font-bold text-purple-700 mb-4">{pkg.price}</div>
                         
                         <button className="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700">
-                            Đăng kí
+                            <a href={constants.URL_WEB_ADMIN}>Đăng kí</a>
                         </button>
                     </div>
                 ))}

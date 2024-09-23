@@ -1,3 +1,5 @@
+import { constants } from "../../../constants"
+
 const FooterBanner = () => {
     return (
         <div className="relative w-full h-[400px] overflow-hidden group">
@@ -20,7 +22,7 @@ const FooterBanner = () => {
                     {/* Text and Button */}
                     <h1 className="text-3xl font-bold mb-4">ĐĂNG KÍ DỊCH VỤ PROXY PRIVATE IPV4 NGAY</h1>
                     <button className="border-2 border-white bg-purple-600 text-white py-2 px-6 rounded hover:bg-purple-700 transition-colors duration-300">
-                        Đăng kí
+                        <a href={constants.URL_WEB_ADMIN}>Đăng kí</a>
                     </button>
                 </div>
             </div>
