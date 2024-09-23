@@ -194,10 +194,10 @@ const Header = () => {
                     {/* Right Side: Buttons */}
                     <div className="hidden md:flex items-center space-x-4 mt-4 md:mt-0 md:order-2 lg:order-3">
                         <button className="border-none border-purple-600 text-purple-600 bg-transparent hover:bg-purple-50 py-2 px-4 rounded-md">
-                            ĐĂNG KÝ
+                            <a href={constants.URL_WEB_ADMIN}>ĐĂNG KÝ</a>
                         </button>
                         <button className="bg-purple-600 text-white hover:bg-purple-700 py-2 px-4 rounded-md">
-                            ĐĂNG NHẬP
+                            <a href={constants.URL_WEB_ADMIN}>ĐĂNG NHẬP</a>
                         </button>
                     </div>
                 </div>
