@@ -56,12 +56,11 @@ const Slider = () => {
     return (
         <div className="slider-container" >
             <RSlider {...settings}>
-                {['./images/home/proxy.jpg', './images/logo-full.jpg', './images/home/proxy.jpg'].map((src, index) => (
-                    <div
-                        key={index}
-                        className="w-full h-auto md:h-96"
-                    >
-                        <img width="100%" src={src} alt="" />
+                {['./images/home/proxy.jpg', './images/proxy-tech.jpg', './images/proxy-server.png'].map((src, index) => (
+                    <div key={index} className="w-full h-auto md:h-96 overflow-hidden">
+                        <img
+                            width="100%" height="100%" src={src} alt=""
+                            className="object-cover object-center w-full h-full" />
                     </div>
                 ))}
             </RSlider>
